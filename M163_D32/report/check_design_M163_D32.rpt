@@ -1,0 +1,1001 @@
+ 
+****************************************
+check_design summary:
+Version:     I-2013.12-SP3
+Date:        Fri Dec 26 03:27:14 2014
+****************************************
+
+                   Name                                            Total
+--------------------------------------------------------------------------------
+Inputs/Outputs                                                    384
+    Feedthrough (LINT-29)                                         384
+
+Cells                                                             250
+    Connected to power or ground (LINT-32)                        243
+    Nets connected to multiple pins on same cell (LINT-33)          7
+
+Nets                                                               96
+    Unloaded nets (LINT-2)                                         96
+--------------------------------------------------------------------------------
+
+Warning: In design 'top', net 'bo6[0]' driven by pin 'pe5/b_out[0]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[1]' driven by pin 'pe5/b_out[1]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[2]' driven by pin 'pe5/b_out[2]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[3]' driven by pin 'pe5/b_out[3]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[4]' driven by pin 'pe5/b_out[4]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[5]' driven by pin 'pe5/b_out[5]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[6]' driven by pin 'pe5/b_out[6]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[7]' driven by pin 'pe5/b_out[7]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[8]' driven by pin 'pe5/b_out[8]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[9]' driven by pin 'pe5/b_out[9]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[10]' driven by pin 'pe5/b_out[10]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[11]' driven by pin 'pe5/b_out[11]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[12]' driven by pin 'pe5/b_out[12]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[13]' driven by pin 'pe5/b_out[13]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[14]' driven by pin 'pe5/b_out[14]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[15]' driven by pin 'pe5/b_out[15]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[16]' driven by pin 'pe5/b_out[16]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[17]' driven by pin 'pe5/b_out[17]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[18]' driven by pin 'pe5/b_out[18]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[19]' driven by pin 'pe5/b_out[19]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[20]' driven by pin 'pe5/b_out[20]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[21]' driven by pin 'pe5/b_out[21]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[22]' driven by pin 'pe5/b_out[22]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[23]' driven by pin 'pe5/b_out[23]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[24]' driven by pin 'pe5/b_out[24]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[25]' driven by pin 'pe5/b_out[25]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[26]' driven by pin 'pe5/b_out[26]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[27]' driven by pin 'pe5/b_out[27]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[28]' driven by pin 'pe5/b_out[28]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[29]' driven by pin 'pe5/b_out[29]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[30]' driven by pin 'pe5/b_out[30]' has no loads. (LINT-2)
+Warning: In design 'top', net 'bo6[31]' driven by pin 'pe5/b_out[31]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[0]' driven by pin 'pe5/g_out[0]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[1]' driven by pin 'pe5/g_out[1]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[2]' driven by pin 'pe5/g_out[2]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[3]' driven by pin 'pe5/g_out[3]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[4]' driven by pin 'pe5/g_out[4]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[5]' driven by pin 'pe5/g_out[5]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[6]' driven by pin 'pe5/g_out[6]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[7]' driven by pin 'pe5/g_out[7]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[8]' driven by pin 'pe5/g_out[8]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[9]' driven by pin 'pe5/g_out[9]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[10]' driven by pin 'pe5/g_out[10]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[11]' driven by pin 'pe5/g_out[11]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[12]' driven by pin 'pe5/g_out[12]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[13]' driven by pin 'pe5/g_out[13]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[14]' driven by pin 'pe5/g_out[14]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[15]' driven by pin 'pe5/g_out[15]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[16]' driven by pin 'pe5/g_out[16]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[17]' driven by pin 'pe5/g_out[17]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[18]' driven by pin 'pe5/g_out[18]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[19]' driven by pin 'pe5/g_out[19]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[20]' driven by pin 'pe5/g_out[20]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[21]' driven by pin 'pe5/g_out[21]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[22]' driven by pin 'pe5/g_out[22]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[23]' driven by pin 'pe5/g_out[23]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[24]' driven by pin 'pe5/g_out[24]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[25]' driven by pin 'pe5/g_out[25]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[26]' driven by pin 'pe5/g_out[26]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[27]' driven by pin 'pe5/g_out[27]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[28]' driven by pin 'pe5/g_out[28]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[29]' driven by pin 'pe5/g_out[29]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[30]' driven by pin 'pe5/g_out[30]' has no loads. (LINT-2)
+Warning: In design 'top', net 'go6[31]' driven by pin 'pe5/g_out[31]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[0]' driven by pin 'pe5/a_out[0]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[1]' driven by pin 'pe5/a_out[1]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[2]' driven by pin 'pe5/a_out[2]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[3]' driven by pin 'pe5/a_out[3]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[4]' driven by pin 'pe5/a_out[4]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[5]' driven by pin 'pe5/a_out[5]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[6]' driven by pin 'pe5/a_out[6]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[7]' driven by pin 'pe5/a_out[7]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[8]' driven by pin 'pe5/a_out[8]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[9]' driven by pin 'pe5/a_out[9]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[10]' driven by pin 'pe5/a_out[10]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[11]' driven by pin 'pe5/a_out[11]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[12]' driven by pin 'pe5/a_out[12]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[13]' driven by pin 'pe5/a_out[13]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[14]' driven by pin 'pe5/a_out[14]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[15]' driven by pin 'pe5/a_out[15]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[16]' driven by pin 'pe5/a_out[16]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[17]' driven by pin 'pe5/a_out[17]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[18]' driven by pin 'pe5/a_out[18]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[19]' driven by pin 'pe5/a_out[19]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[20]' driven by pin 'pe5/a_out[20]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[21]' driven by pin 'pe5/a_out[21]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[22]' driven by pin 'pe5/a_out[22]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[23]' driven by pin 'pe5/a_out[23]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[24]' driven by pin 'pe5/a_out[24]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[25]' driven by pin 'pe5/a_out[25]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[26]' driven by pin 'pe5/a_out[26]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[27]' driven by pin 'pe5/a_out[27]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[28]' driven by pin 'pe5/a_out[28]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[29]' driven by pin 'pe5/a_out[29]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[30]' driven by pin 'pe5/a_out[30]' has no loads. (LINT-2)
+Warning: In design 'top', net 'ao6[31]' driven by pin 'pe5/a_out[31]' has no loads. (LINT-2)
+Warning: In design 'PE_core_5', input port 'a_in[31]' is connected directly to output port 'a_out[31]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[30]' is connected directly to output port 'a_out[30]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[29]' is connected directly to output port 'a_out[29]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[28]' is connected directly to output port 'a_out[28]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[27]' is connected directly to output port 'a_out[27]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[26]' is connected directly to output port 'a_out[26]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[25]' is connected directly to output port 'a_out[25]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[24]' is connected directly to output port 'a_out[24]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[23]' is connected directly to output port 'a_out[23]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[22]' is connected directly to output port 'a_out[22]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[21]' is connected directly to output port 'a_out[21]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[20]' is connected directly to output port 'a_out[20]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[19]' is connected directly to output port 'a_out[19]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[18]' is connected directly to output port 'a_out[18]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[17]' is connected directly to output port 'a_out[17]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[16]' is connected directly to output port 'a_out[16]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[15]' is connected directly to output port 'a_out[15]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[14]' is connected directly to output port 'a_out[14]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[13]' is connected directly to output port 'a_out[13]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[12]' is connected directly to output port 'a_out[12]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[11]' is connected directly to output port 'a_out[11]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[10]' is connected directly to output port 'a_out[10]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[9]' is connected directly to output port 'a_out[9]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[8]' is connected directly to output port 'a_out[8]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[7]' is connected directly to output port 'a_out[7]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[6]' is connected directly to output port 'a_out[6]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[5]' is connected directly to output port 'a_out[5]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[4]' is connected directly to output port 'a_out[4]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[3]' is connected directly to output port 'a_out[3]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[2]' is connected directly to output port 'a_out[2]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[1]' is connected directly to output port 'a_out[1]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'a_in[0]' is connected directly to output port 'a_out[0]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[31]' is connected directly to output port 'g_out[31]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[30]' is connected directly to output port 'g_out[30]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[29]' is connected directly to output port 'g_out[29]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[28]' is connected directly to output port 'g_out[28]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[27]' is connected directly to output port 'g_out[27]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[26]' is connected directly to output port 'g_out[26]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[25]' is connected directly to output port 'g_out[25]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[24]' is connected directly to output port 'g_out[24]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[23]' is connected directly to output port 'g_out[23]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[22]' is connected directly to output port 'g_out[22]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[21]' is connected directly to output port 'g_out[21]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[20]' is connected directly to output port 'g_out[20]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[19]' is connected directly to output port 'g_out[19]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[18]' is connected directly to output port 'g_out[18]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[17]' is connected directly to output port 'g_out[17]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[16]' is connected directly to output port 'g_out[16]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[15]' is connected directly to output port 'g_out[15]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[14]' is connected directly to output port 'g_out[14]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[13]' is connected directly to output port 'g_out[13]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[12]' is connected directly to output port 'g_out[12]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[11]' is connected directly to output port 'g_out[11]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[10]' is connected directly to output port 'g_out[10]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[9]' is connected directly to output port 'g_out[9]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[8]' is connected directly to output port 'g_out[8]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[7]' is connected directly to output port 'g_out[7]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[6]' is connected directly to output port 'g_out[6]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[5]' is connected directly to output port 'g_out[5]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[4]' is connected directly to output port 'g_out[4]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[3]' is connected directly to output port 'g_out[3]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[2]' is connected directly to output port 'g_out[2]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[1]' is connected directly to output port 'g_out[1]'. (LINT-29)
+Warning: In design 'PE_core_5', input port 'g_in[0]' is connected directly to output port 'g_out[0]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[31]' is connected directly to output port 'a_out[31]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[30]' is connected directly to output port 'a_out[30]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[29]' is connected directly to output port 'a_out[29]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[28]' is connected directly to output port 'a_out[28]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[27]' is connected directly to output port 'a_out[27]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[26]' is connected directly to output port 'a_out[26]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[25]' is connected directly to output port 'a_out[25]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[24]' is connected directly to output port 'a_out[24]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[23]' is connected directly to output port 'a_out[23]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[22]' is connected directly to output port 'a_out[22]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[21]' is connected directly to output port 'a_out[21]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[20]' is connected directly to output port 'a_out[20]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[19]' is connected directly to output port 'a_out[19]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[18]' is connected directly to output port 'a_out[18]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[17]' is connected directly to output port 'a_out[17]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[16]' is connected directly to output port 'a_out[16]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[15]' is connected directly to output port 'a_out[15]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[14]' is connected directly to output port 'a_out[14]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[13]' is connected directly to output port 'a_out[13]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[12]' is connected directly to output port 'a_out[12]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[11]' is connected directly to output port 'a_out[11]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[10]' is connected directly to output port 'a_out[10]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[9]' is connected directly to output port 'a_out[9]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[8]' is connected directly to output port 'a_out[8]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[7]' is connected directly to output port 'a_out[7]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[6]' is connected directly to output port 'a_out[6]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[5]' is connected directly to output port 'a_out[5]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[4]' is connected directly to output port 'a_out[4]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[3]' is connected directly to output port 'a_out[3]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[2]' is connected directly to output port 'a_out[2]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[1]' is connected directly to output port 'a_out[1]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'a_in[0]' is connected directly to output port 'a_out[0]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[31]' is connected directly to output port 'g_out[31]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[30]' is connected directly to output port 'g_out[30]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[29]' is connected directly to output port 'g_out[29]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[28]' is connected directly to output port 'g_out[28]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[27]' is connected directly to output port 'g_out[27]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[26]' is connected directly to output port 'g_out[26]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[25]' is connected directly to output port 'g_out[25]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[24]' is connected directly to output port 'g_out[24]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[23]' is connected directly to output port 'g_out[23]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[22]' is connected directly to output port 'g_out[22]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[21]' is connected directly to output port 'g_out[21]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[20]' is connected directly to output port 'g_out[20]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[19]' is connected directly to output port 'g_out[19]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[18]' is connected directly to output port 'g_out[18]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[17]' is connected directly to output port 'g_out[17]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[16]' is connected directly to output port 'g_out[16]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[15]' is connected directly to output port 'g_out[15]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[14]' is connected directly to output port 'g_out[14]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[13]' is connected directly to output port 'g_out[13]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[12]' is connected directly to output port 'g_out[12]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[11]' is connected directly to output port 'g_out[11]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[10]' is connected directly to output port 'g_out[10]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[9]' is connected directly to output port 'g_out[9]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[8]' is connected directly to output port 'g_out[8]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[7]' is connected directly to output port 'g_out[7]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[6]' is connected directly to output port 'g_out[6]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[5]' is connected directly to output port 'g_out[5]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[4]' is connected directly to output port 'g_out[4]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[3]' is connected directly to output port 'g_out[3]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[2]' is connected directly to output port 'g_out[2]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[1]' is connected directly to output port 'g_out[1]'. (LINT-29)
+Warning: In design 'PE_core_0', input port 'g_in[0]' is connected directly to output port 'g_out[0]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[31]' is connected directly to output port 'a_out[31]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[30]' is connected directly to output port 'a_out[30]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[29]' is connected directly to output port 'a_out[29]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[28]' is connected directly to output port 'a_out[28]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[27]' is connected directly to output port 'a_out[27]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[26]' is connected directly to output port 'a_out[26]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[25]' is connected directly to output port 'a_out[25]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[24]' is connected directly to output port 'a_out[24]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[23]' is connected directly to output port 'a_out[23]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[22]' is connected directly to output port 'a_out[22]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[21]' is connected directly to output port 'a_out[21]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[20]' is connected directly to output port 'a_out[20]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[19]' is connected directly to output port 'a_out[19]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[18]' is connected directly to output port 'a_out[18]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[17]' is connected directly to output port 'a_out[17]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[16]' is connected directly to output port 'a_out[16]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[15]' is connected directly to output port 'a_out[15]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[14]' is connected directly to output port 'a_out[14]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[13]' is connected directly to output port 'a_out[13]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[12]' is connected directly to output port 'a_out[12]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[11]' is connected directly to output port 'a_out[11]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[10]' is connected directly to output port 'a_out[10]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[9]' is connected directly to output port 'a_out[9]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[8]' is connected directly to output port 'a_out[8]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[7]' is connected directly to output port 'a_out[7]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[6]' is connected directly to output port 'a_out[6]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[5]' is connected directly to output port 'a_out[5]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[4]' is connected directly to output port 'a_out[4]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[3]' is connected directly to output port 'a_out[3]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[2]' is connected directly to output port 'a_out[2]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[1]' is connected directly to output port 'a_out[1]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'a_in[0]' is connected directly to output port 'a_out[0]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[31]' is connected directly to output port 'g_out[31]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[30]' is connected directly to output port 'g_out[30]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[29]' is connected directly to output port 'g_out[29]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[28]' is connected directly to output port 'g_out[28]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[27]' is connected directly to output port 'g_out[27]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[26]' is connected directly to output port 'g_out[26]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[25]' is connected directly to output port 'g_out[25]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[24]' is connected directly to output port 'g_out[24]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[23]' is connected directly to output port 'g_out[23]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[22]' is connected directly to output port 'g_out[22]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[21]' is connected directly to output port 'g_out[21]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[20]' is connected directly to output port 'g_out[20]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[19]' is connected directly to output port 'g_out[19]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[18]' is connected directly to output port 'g_out[18]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[17]' is connected directly to output port 'g_out[17]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[16]' is connected directly to output port 'g_out[16]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[15]' is connected directly to output port 'g_out[15]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[14]' is connected directly to output port 'g_out[14]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[13]' is connected directly to output port 'g_out[13]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[12]' is connected directly to output port 'g_out[12]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[11]' is connected directly to output port 'g_out[11]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[10]' is connected directly to output port 'g_out[10]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[9]' is connected directly to output port 'g_out[9]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[8]' is connected directly to output port 'g_out[8]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[7]' is connected directly to output port 'g_out[7]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[6]' is connected directly to output port 'g_out[6]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[5]' is connected directly to output port 'g_out[5]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[4]' is connected directly to output port 'g_out[4]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[3]' is connected directly to output port 'g_out[3]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[2]' is connected directly to output port 'g_out[2]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[1]' is connected directly to output port 'g_out[1]'. (LINT-29)
+Warning: In design 'PE_core_1', input port 'g_in[0]' is connected directly to output port 'g_out[0]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[31]' is connected directly to output port 'a_out[31]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[30]' is connected directly to output port 'a_out[30]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[29]' is connected directly to output port 'a_out[29]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[28]' is connected directly to output port 'a_out[28]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[27]' is connected directly to output port 'a_out[27]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[26]' is connected directly to output port 'a_out[26]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[25]' is connected directly to output port 'a_out[25]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[24]' is connected directly to output port 'a_out[24]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[23]' is connected directly to output port 'a_out[23]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[22]' is connected directly to output port 'a_out[22]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[21]' is connected directly to output port 'a_out[21]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[20]' is connected directly to output port 'a_out[20]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[19]' is connected directly to output port 'a_out[19]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[18]' is connected directly to output port 'a_out[18]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[17]' is connected directly to output port 'a_out[17]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[16]' is connected directly to output port 'a_out[16]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[15]' is connected directly to output port 'a_out[15]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[14]' is connected directly to output port 'a_out[14]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[13]' is connected directly to output port 'a_out[13]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[12]' is connected directly to output port 'a_out[12]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[11]' is connected directly to output port 'a_out[11]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[10]' is connected directly to output port 'a_out[10]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[9]' is connected directly to output port 'a_out[9]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[8]' is connected directly to output port 'a_out[8]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[7]' is connected directly to output port 'a_out[7]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[6]' is connected directly to output port 'a_out[6]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[5]' is connected directly to output port 'a_out[5]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[4]' is connected directly to output port 'a_out[4]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[3]' is connected directly to output port 'a_out[3]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[2]' is connected directly to output port 'a_out[2]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[1]' is connected directly to output port 'a_out[1]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'a_in[0]' is connected directly to output port 'a_out[0]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[31]' is connected directly to output port 'g_out[31]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[30]' is connected directly to output port 'g_out[30]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[29]' is connected directly to output port 'g_out[29]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[28]' is connected directly to output port 'g_out[28]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[27]' is connected directly to output port 'g_out[27]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[26]' is connected directly to output port 'g_out[26]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[25]' is connected directly to output port 'g_out[25]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[24]' is connected directly to output port 'g_out[24]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[23]' is connected directly to output port 'g_out[23]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[22]' is connected directly to output port 'g_out[22]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[21]' is connected directly to output port 'g_out[21]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[20]' is connected directly to output port 'g_out[20]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[19]' is connected directly to output port 'g_out[19]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[18]' is connected directly to output port 'g_out[18]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[17]' is connected directly to output port 'g_out[17]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[16]' is connected directly to output port 'g_out[16]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[15]' is connected directly to output port 'g_out[15]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[14]' is connected directly to output port 'g_out[14]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[13]' is connected directly to output port 'g_out[13]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[12]' is connected directly to output port 'g_out[12]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[11]' is connected directly to output port 'g_out[11]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[10]' is connected directly to output port 'g_out[10]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[9]' is connected directly to output port 'g_out[9]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[8]' is connected directly to output port 'g_out[8]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[7]' is connected directly to output port 'g_out[7]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[6]' is connected directly to output port 'g_out[6]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[5]' is connected directly to output port 'g_out[5]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[4]' is connected directly to output port 'g_out[4]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[3]' is connected directly to output port 'g_out[3]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[2]' is connected directly to output port 'g_out[2]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[1]' is connected directly to output port 'g_out[1]'. (LINT-29)
+Warning: In design 'PE_core_2', input port 'g_in[0]' is connected directly to output port 'g_out[0]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[31]' is connected directly to output port 'a_out[31]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[30]' is connected directly to output port 'a_out[30]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[29]' is connected directly to output port 'a_out[29]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[28]' is connected directly to output port 'a_out[28]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[27]' is connected directly to output port 'a_out[27]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[26]' is connected directly to output port 'a_out[26]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[25]' is connected directly to output port 'a_out[25]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[24]' is connected directly to output port 'a_out[24]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[23]' is connected directly to output port 'a_out[23]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[22]' is connected directly to output port 'a_out[22]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[21]' is connected directly to output port 'a_out[21]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[20]' is connected directly to output port 'a_out[20]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[19]' is connected directly to output port 'a_out[19]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[18]' is connected directly to output port 'a_out[18]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[17]' is connected directly to output port 'a_out[17]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[16]' is connected directly to output port 'a_out[16]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[15]' is connected directly to output port 'a_out[15]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[14]' is connected directly to output port 'a_out[14]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[13]' is connected directly to output port 'a_out[13]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[12]' is connected directly to output port 'a_out[12]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[11]' is connected directly to output port 'a_out[11]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[10]' is connected directly to output port 'a_out[10]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[9]' is connected directly to output port 'a_out[9]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[8]' is connected directly to output port 'a_out[8]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[7]' is connected directly to output port 'a_out[7]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[6]' is connected directly to output port 'a_out[6]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[5]' is connected directly to output port 'a_out[5]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[4]' is connected directly to output port 'a_out[4]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[3]' is connected directly to output port 'a_out[3]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[2]' is connected directly to output port 'a_out[2]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[1]' is connected directly to output port 'a_out[1]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'a_in[0]' is connected directly to output port 'a_out[0]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[31]' is connected directly to output port 'g_out[31]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[30]' is connected directly to output port 'g_out[30]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[29]' is connected directly to output port 'g_out[29]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[28]' is connected directly to output port 'g_out[28]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[27]' is connected directly to output port 'g_out[27]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[26]' is connected directly to output port 'g_out[26]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[25]' is connected directly to output port 'g_out[25]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[24]' is connected directly to output port 'g_out[24]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[23]' is connected directly to output port 'g_out[23]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[22]' is connected directly to output port 'g_out[22]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[21]' is connected directly to output port 'g_out[21]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[20]' is connected directly to output port 'g_out[20]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[19]' is connected directly to output port 'g_out[19]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[18]' is connected directly to output port 'g_out[18]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[17]' is connected directly to output port 'g_out[17]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[16]' is connected directly to output port 'g_out[16]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[15]' is connected directly to output port 'g_out[15]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[14]' is connected directly to output port 'g_out[14]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[13]' is connected directly to output port 'g_out[13]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[12]' is connected directly to output port 'g_out[12]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[11]' is connected directly to output port 'g_out[11]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[10]' is connected directly to output port 'g_out[10]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[9]' is connected directly to output port 'g_out[9]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[8]' is connected directly to output port 'g_out[8]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[7]' is connected directly to output port 'g_out[7]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[6]' is connected directly to output port 'g_out[6]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[5]' is connected directly to output port 'g_out[5]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[4]' is connected directly to output port 'g_out[4]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[3]' is connected directly to output port 'g_out[3]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[2]' is connected directly to output port 'g_out[2]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[1]' is connected directly to output port 'g_out[1]'. (LINT-29)
+Warning: In design 'PE_core_3', input port 'g_in[0]' is connected directly to output port 'g_out[0]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[31]' is connected directly to output port 'a_out[31]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[30]' is connected directly to output port 'a_out[30]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[29]' is connected directly to output port 'a_out[29]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[28]' is connected directly to output port 'a_out[28]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[27]' is connected directly to output port 'a_out[27]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[26]' is connected directly to output port 'a_out[26]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[25]' is connected directly to output port 'a_out[25]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[24]' is connected directly to output port 'a_out[24]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[23]' is connected directly to output port 'a_out[23]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[22]' is connected directly to output port 'a_out[22]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[21]' is connected directly to output port 'a_out[21]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[20]' is connected directly to output port 'a_out[20]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[19]' is connected directly to output port 'a_out[19]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[18]' is connected directly to output port 'a_out[18]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[17]' is connected directly to output port 'a_out[17]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[16]' is connected directly to output port 'a_out[16]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[15]' is connected directly to output port 'a_out[15]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[14]' is connected directly to output port 'a_out[14]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[13]' is connected directly to output port 'a_out[13]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[12]' is connected directly to output port 'a_out[12]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[11]' is connected directly to output port 'a_out[11]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[10]' is connected directly to output port 'a_out[10]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[9]' is connected directly to output port 'a_out[9]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[8]' is connected directly to output port 'a_out[8]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[7]' is connected directly to output port 'a_out[7]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[6]' is connected directly to output port 'a_out[6]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[5]' is connected directly to output port 'a_out[5]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[4]' is connected directly to output port 'a_out[4]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[3]' is connected directly to output port 'a_out[3]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[2]' is connected directly to output port 'a_out[2]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[1]' is connected directly to output port 'a_out[1]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'a_in[0]' is connected directly to output port 'a_out[0]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[31]' is connected directly to output port 'g_out[31]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[30]' is connected directly to output port 'g_out[30]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[29]' is connected directly to output port 'g_out[29]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[28]' is connected directly to output port 'g_out[28]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[27]' is connected directly to output port 'g_out[27]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[26]' is connected directly to output port 'g_out[26]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[25]' is connected directly to output port 'g_out[25]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[24]' is connected directly to output port 'g_out[24]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[23]' is connected directly to output port 'g_out[23]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[22]' is connected directly to output port 'g_out[22]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[21]' is connected directly to output port 'g_out[21]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[20]' is connected directly to output port 'g_out[20]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[19]' is connected directly to output port 'g_out[19]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[18]' is connected directly to output port 'g_out[18]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[17]' is connected directly to output port 'g_out[17]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[16]' is connected directly to output port 'g_out[16]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[15]' is connected directly to output port 'g_out[15]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[14]' is connected directly to output port 'g_out[14]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[13]' is connected directly to output port 'g_out[13]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[12]' is connected directly to output port 'g_out[12]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[11]' is connected directly to output port 'g_out[11]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[10]' is connected directly to output port 'g_out[10]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[9]' is connected directly to output port 'g_out[9]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[8]' is connected directly to output port 'g_out[8]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[7]' is connected directly to output port 'g_out[7]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[6]' is connected directly to output port 'g_out[6]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[5]' is connected directly to output port 'g_out[5]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[4]' is connected directly to output port 'g_out[4]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[3]' is connected directly to output port 'g_out[3]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[2]' is connected directly to output port 'g_out[2]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[1]' is connected directly to output port 'g_out[1]'. (LINT-29)
+Warning: In design 'PE_core_4', input port 'g_in[0]' is connected directly to output port 'g_out[0]'. (LINT-29)
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[30]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[29]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[28]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[27]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[26]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[25]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[24]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[23]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[22]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[21]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[20]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[19]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[18]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[17]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[16]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[15]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[14]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[13]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[12]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[11]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[10]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[9]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[8]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[7]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[6]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[5]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[4]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[3]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[2]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[1]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[0]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in_0' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[30]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[29]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[28]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[27]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[26]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[25]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[24]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[23]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[22]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[21]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[20]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[19]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[18]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[17]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[16]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[15]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[14]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[13]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[12]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[11]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[10]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[9]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[8]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[7]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[6]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[5]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[4]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[3]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[2]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[1]' is connected to logic 0. 
+Warning: In design 'top', a pin on submodule 'pe0' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_2_in[0]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[30]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[29]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[28]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[27]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[26]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[25]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[24]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[23]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[22]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[21]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[20]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[19]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[18]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[17]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[16]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[15]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[14]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[13]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[12]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[11]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[10]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[9]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[8]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[7]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[6]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[5]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[4]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[3]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[2]' is connected to logic 0. 
+Warning: In design 'PE_5', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[1]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[30]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[29]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[28]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[27]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[26]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[25]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[24]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[23]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[22]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[21]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[20]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[19]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[18]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[17]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[16]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[15]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[14]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[13]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[12]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[11]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[10]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[9]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[8]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[7]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[6]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[5]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[4]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[3]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[2]' is connected to logic 0. 
+Warning: In design 'PE_0', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[1]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[30]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[29]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[28]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[27]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[26]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[25]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[24]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[23]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[22]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[21]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[20]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[19]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[18]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[17]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[16]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[15]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[14]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[13]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[12]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[11]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[10]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[9]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[8]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[7]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[6]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[5]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[4]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[3]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[2]' is connected to logic 0. 
+Warning: In design 'PE_1', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[1]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[30]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[29]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[28]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[27]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[26]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[25]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[24]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[23]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[22]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[21]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[20]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[19]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[18]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[17]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[16]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[15]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[14]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[13]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[12]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[11]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[10]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[9]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[8]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[7]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[6]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[5]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[4]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[3]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[2]' is connected to logic 0. 
+Warning: In design 'PE_2', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[1]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[30]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[29]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[28]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[27]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[26]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[25]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[24]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[23]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[22]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[21]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[20]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[19]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[18]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[17]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[16]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[15]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[14]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[13]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[12]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[11]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[10]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[9]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[8]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[7]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[6]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[5]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[4]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[3]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[2]' is connected to logic 0. 
+Warning: In design 'PE_3', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[1]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[30]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[29]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[28]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[27]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[26]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[25]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[24]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[23]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[22]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[21]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[20]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[19]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[18]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[17]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[16]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[15]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[14]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[13]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[12]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[11]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[10]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[9]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[8]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[7]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[6]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[5]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[4]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[3]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[2]' is connected to logic 0. 
+Warning: In design 'PE_4', a pin on submodule 'pe' is connected to logic 1 or logic 0. (LINT-32)
+   Pin 't_i_1_in[1]' is connected to logic 0. 
+Warning: In design 'top', the same net is connected to more than one pin on submodule 'pe0'. (LINT-33)
+   Net '*logic0*' is connected to pins 't_i_1_in[30]', 't_i_1_in[29]'', 't_i_1_in[28]', 't_i_1_in[27]', 't_i_1_in[26]', 't_i_1_in[25]', 't_i_1_in[24]', 't_i_1_in[23]', 't_i_1_in[22]', 't_i_1_in[21]', 't_i_1_in[20]', 't_i_1_in[19]', 't_i_1_in[18]', 't_i_1_in[17]', 't_i_1_in[16]', 't_i_1_in[15]', 't_i_1_in[14]', 't_i_1_in[13]', 't_i_1_in[12]', 't_i_1_in[11]', 't_i_1_in[10]', 't_i_1_in[9]', 't_i_1_in[8]', 't_i_1_in[7]', 't_i_1_in[6]', 't_i_1_in[5]', 't_i_1_in[4]', 't_i_1_in[3]', 't_i_1_in[2]', 't_i_1_in[1]', 't_i_1_in[0]', 't_i_1_in_0', 't_i_2_in[30]', 't_i_2_in[29]', 't_i_2_in[28]', 't_i_2_in[27]', 't_i_2_in[26]', 't_i_2_in[25]', 't_i_2_in[24]', 't_i_2_in[23]', 't_i_2_in[22]', 't_i_2_in[21]', 't_i_2_in[20]', 't_i_2_in[19]', 't_i_2_in[18]', 't_i_2_in[17]', 't_i_2_in[16]', 't_i_2_in[15]', 't_i_2_in[14]', 't_i_2_in[13]', 't_i_2_in[12]', 't_i_2_in[11]', 't_i_2_in[10]', 't_i_2_in[9]', 't_i_2_in[8]', 't_i_2_in[7]', 't_i_2_in[6]', 't_i_2_in[5]', 't_i_2_in[4]', 't_i_2_in[3]', 't_i_2_in[2]', 't_i_2_in[1]', 't_i_2_in[0]'.
+Warning: In design 'PE_5', the same net is connected to more than one pin on submodule 'pe'. (LINT-33)
+   Net '*logic0*' is connected to pins 't_i_1_in[30]', 't_i_1_in[29]'', 't_i_1_in[28]', 't_i_1_in[27]', 't_i_1_in[26]', 't_i_1_in[25]', 't_i_1_in[24]', 't_i_1_in[23]', 't_i_1_in[22]', 't_i_1_in[21]', 't_i_1_in[20]', 't_i_1_in[19]', 't_i_1_in[18]', 't_i_1_in[17]', 't_i_1_in[16]', 't_i_1_in[15]', 't_i_1_in[14]', 't_i_1_in[13]', 't_i_1_in[12]', 't_i_1_in[11]', 't_i_1_in[10]', 't_i_1_in[9]', 't_i_1_in[8]', 't_i_1_in[7]', 't_i_1_in[6]', 't_i_1_in[5]', 't_i_1_in[4]', 't_i_1_in[3]', 't_i_1_in[2]', 't_i_1_in[1]'.
+Warning: In design 'PE_0', the same net is connected to more than one pin on submodule 'pe'. (LINT-33)
+   Net '*logic0*' is connected to pins 't_i_1_in[30]', 't_i_1_in[29]'', 't_i_1_in[28]', 't_i_1_in[27]', 't_i_1_in[26]', 't_i_1_in[25]', 't_i_1_in[24]', 't_i_1_in[23]', 't_i_1_in[22]', 't_i_1_in[21]', 't_i_1_in[20]', 't_i_1_in[19]', 't_i_1_in[18]', 't_i_1_in[17]', 't_i_1_in[16]', 't_i_1_in[15]', 't_i_1_in[14]', 't_i_1_in[13]', 't_i_1_in[12]', 't_i_1_in[11]', 't_i_1_in[10]', 't_i_1_in[9]', 't_i_1_in[8]', 't_i_1_in[7]', 't_i_1_in[6]', 't_i_1_in[5]', 't_i_1_in[4]', 't_i_1_in[3]', 't_i_1_in[2]', 't_i_1_in[1]'.
+Warning: In design 'PE_1', the same net is connected to more than one pin on submodule 'pe'. (LINT-33)
+   Net '*logic0*' is connected to pins 't_i_1_in[30]', 't_i_1_in[29]'', 't_i_1_in[28]', 't_i_1_in[27]', 't_i_1_in[26]', 't_i_1_in[25]', 't_i_1_in[24]', 't_i_1_in[23]', 't_i_1_in[22]', 't_i_1_in[21]', 't_i_1_in[20]', 't_i_1_in[19]', 't_i_1_in[18]', 't_i_1_in[17]', 't_i_1_in[16]', 't_i_1_in[15]', 't_i_1_in[14]', 't_i_1_in[13]', 't_i_1_in[12]', 't_i_1_in[11]', 't_i_1_in[10]', 't_i_1_in[9]', 't_i_1_in[8]', 't_i_1_in[7]', 't_i_1_in[6]', 't_i_1_in[5]', 't_i_1_in[4]', 't_i_1_in[3]', 't_i_1_in[2]', 't_i_1_in[1]'.
+Warning: In design 'PE_2', the same net is connected to more than one pin on submodule 'pe'. (LINT-33)
+   Net '*logic0*' is connected to pins 't_i_1_in[30]', 't_i_1_in[29]'', 't_i_1_in[28]', 't_i_1_in[27]', 't_i_1_in[26]', 't_i_1_in[25]', 't_i_1_in[24]', 't_i_1_in[23]', 't_i_1_in[22]', 't_i_1_in[21]', 't_i_1_in[20]', 't_i_1_in[19]', 't_i_1_in[18]', 't_i_1_in[17]', 't_i_1_in[16]', 't_i_1_in[15]', 't_i_1_in[14]', 't_i_1_in[13]', 't_i_1_in[12]', 't_i_1_in[11]', 't_i_1_in[10]', 't_i_1_in[9]', 't_i_1_in[8]', 't_i_1_in[7]', 't_i_1_in[6]', 't_i_1_in[5]', 't_i_1_in[4]', 't_i_1_in[3]', 't_i_1_in[2]', 't_i_1_in[1]'.
+Warning: In design 'PE_3', the same net is connected to more than one pin on submodule 'pe'. (LINT-33)
+   Net '*logic0*' is connected to pins 't_i_1_in[30]', 't_i_1_in[29]'', 't_i_1_in[28]', 't_i_1_in[27]', 't_i_1_in[26]', 't_i_1_in[25]', 't_i_1_in[24]', 't_i_1_in[23]', 't_i_1_in[22]', 't_i_1_in[21]', 't_i_1_in[20]', 't_i_1_in[19]', 't_i_1_in[18]', 't_i_1_in[17]', 't_i_1_in[16]', 't_i_1_in[15]', 't_i_1_in[14]', 't_i_1_in[13]', 't_i_1_in[12]', 't_i_1_in[11]', 't_i_1_in[10]', 't_i_1_in[9]', 't_i_1_in[8]', 't_i_1_in[7]', 't_i_1_in[6]', 't_i_1_in[5]', 't_i_1_in[4]', 't_i_1_in[3]', 't_i_1_in[2]', 't_i_1_in[1]'.
+Warning: In design 'PE_4', the same net is connected to more than one pin on submodule 'pe'. (LINT-33)
+   Net '*logic0*' is connected to pins 't_i_1_in[30]', 't_i_1_in[29]'', 't_i_1_in[28]', 't_i_1_in[27]', 't_i_1_in[26]', 't_i_1_in[25]', 't_i_1_in[24]', 't_i_1_in[23]', 't_i_1_in[22]', 't_i_1_in[21]', 't_i_1_in[20]', 't_i_1_in[19]', 't_i_1_in[18]', 't_i_1_in[17]', 't_i_1_in[16]', 't_i_1_in[15]', 't_i_1_in[14]', 't_i_1_in[13]', 't_i_1_in[12]', 't_i_1_in[11]', 't_i_1_in[10]', 't_i_1_in[9]', 't_i_1_in[8]', 't_i_1_in[7]', 't_i_1_in[6]', 't_i_1_in[5]', 't_i_1_in[4]', 't_i_1_in[3]', 't_i_1_in[2]', 't_i_1_in[1]'.
+1
