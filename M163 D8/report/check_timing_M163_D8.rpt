@@ -1,0 +1,48 @@
+Information: Updating graph... (UID-83)
+Warning: Design 'top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+Information: Updating design information... (UID-85)
+Warning: Design 'top' contains 1 high-fanout nets. A fanout number of 1000 will be used for delay calculations involving these nets. (TIM-134)
+
+Information: Checking generated_clocks...
+
+Information: Checking loops...
+
+Information: Checking no_input_delay...
+
+Information: Checking unconstrained_endpoints...
+
+Information: Checking pulse_clock_cell_type...
+
+Information: Checking no_driving_cell...
+
+Information: Checking partial_input_delay...
+Warning: there are 27 input ports that only have partial input delay specified. (TIM-212)
+--------------------
+clk
+rstn
+ctr
+a_in[7]
+a_in[6]
+a_in[5]
+a_in[4]
+a_in[3]
+a_in[2]
+a_in[1]
+a_in[0]
+g_in[7]
+g_in[6]
+g_in[5]
+g_in[4]
+g_in[3]
+g_in[2]
+g_in[1]
+g_in[0]
+b_in[7]
+b_in[6]
+b_in[5]
+b_in[4]
+b_in[3]
+b_in[2]
+b_in[1]
+b_in[0]
+1

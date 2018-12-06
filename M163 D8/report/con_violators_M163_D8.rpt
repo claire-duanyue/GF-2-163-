@@ -1,0 +1,20 @@
+ 
+****************************************
+Report : constraint
+        -all_violators
+        -verbose
+Design : top
+Version: G-2012.06-SP5
+Date   : Fri Dec 26 00:35:20 2014
+****************************************
+
+
+    Design: top
+
+    max_area               1.00
+  - Current Area       32938.56
+  ------------------------------
+    Slack              -32937.56  (VIOLATED)
+
+
+1
